@@ -4,7 +4,6 @@ pipeline {
     triggers {
         githubPush() // Triggered when GitHub webhook receives a push
     }
-
     stages {
         stage('Print Time') {
             steps {
